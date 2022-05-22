@@ -1,8 +1,25 @@
 import React from 'react'
 import Navbar from './component/navebar/navebar'
-const App = () => {
+import Intro from './component/intro/intro'
+import Social from './component/social/social'
+import Contact from './component/contact/contact'
+import Footer from './component/footer/footer'
+import Skills from './component/skills/skills'
+import Projects from './component/projets/projects'
+import './App.css'
+function App() {
   return (
-    <Navbar/>
+ <div className='App'>
+<Navbar/>
+<Social/>
+< Intro/>
+<Skills/>
+<Projects/>
+< Contact/>
+<Footer/>
+ </div>
+
+    
   )
 }
 
