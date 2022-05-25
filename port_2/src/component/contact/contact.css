@@ -5,6 +5,7 @@
     margin-top: 4rem;
       /* scroll */
   padding-top: 3rem;
+  padding-bottom: 12rem;
 }
 .awesome {
     display: flex;
@@ -67,6 +68,7 @@ textarea{
     padding-top: 5rem;
   }
     .contact-form{
+      /* margin: rem 0; */
         padding: 0;
         flex-direction: column;
         gap: 5rem;

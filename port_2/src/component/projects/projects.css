@@ -1,0 +1,29 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px 0;
+    align-items: center;
+ 
+       
+}
+
+
+.project_image{
+ display: flex;
+ width: 60vw;
+ /* margin-top: 50px; */
+ flex-wrap: wrap;
+
+
+
+}
+/* @media screen and (max-width: 480px) {
+    .project-container {
+     
+        
+     
+    }
+  
+   
+  } */

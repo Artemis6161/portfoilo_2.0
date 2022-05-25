@@ -5,7 +5,7 @@ import Social from './component/social/social'
 import Contact from './component/contact/contact'
 import Footer from './component/footer/footer'
 import Skills from './component/skills/skills'
-import Projects from './component/projets/projects'
+import Projects from './component/projects/projects'
 import './App.css'
 function App() {
   return (

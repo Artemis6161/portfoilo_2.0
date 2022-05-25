@@ -1,0 +1,82 @@
+.project>img {
+    background: linear-gradient(to bottom left, #00ffff 0%, #ffccff 100%);
+    width: 20rem;
+    height: 10rem;
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    border: 1px solid transparent
+}
+
+.project {
+
+    margin: 15px;
+    width: 350px;
+    height: 279px;
+    padding: 2px;
+    margin-right: 90px;
+    margin-top: 2.5rem;
+    transition: transform 100ms ease-in;
+
+
+
+}
+
+.project:hover {
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.projectContent {
+    padding: 10px;
+}
+
+.projectContent>h4 {
+    padding-bottom: 5px;
+}
+
+.projectContent>p {
+    font-size: 15px;
+}
+
+/* @media screen and (max-width: 480px) {
+    .project>img{
+       
+       
+      
+     
+      height: 10rem;
+      width: 15rem; 
+    
+      
+    }
+    .project{
+       
+       right: -3rem;
+    
+      
+    }
+
+
+
+
+}
+@media screen and (min-width: 768px) {
+
+    .project>img{
+       
+ 
+        
+      height: 15rem;
+      width: 30rem; 
+    
+      
+    }
+    .section-title{
+        margin-top: 20rem;
+
+    }
+} */
