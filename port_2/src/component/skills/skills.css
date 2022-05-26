@@ -1,7 +1,10 @@
 .awesome {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    position: relative;
+    position: relative; */
+    
+
+
     /* gap: 20px; */
   }
   .awesome > :nth-child(1) {
@@ -18,4 +21,56 @@
     color: var(--gray);
     font-size: 14px;
     margin-top: 1rem;
+  }
+.services{
+  padding-bottom: 30rem;
+}
+
+  .font{
+    margin-left: 15rem;
+  }
+ 
+  .topic{
+
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+
+  
+  
+    
+  }
+  .topic1{
+    padding: 3.5rem;
+    padding-top: 1rem;
+  }
+  .flex-items {
+   
+    width: 10rem;
+    height: 50px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  .skill{
+    display: flex;
+    flex-direction: column;
+   padding: 0.1rem;
+  
+  
+
+  }
+  /* .top{
+    display: inline-flex;
+    flex-wrap: wrap;
+  } */
+  .font1{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-right: 10rem;
+ 
   }
