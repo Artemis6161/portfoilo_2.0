@@ -4,9 +4,7 @@
 
 } */
 
-.header_socials>a{
 
-}
 .header_socials{
   display: flex;
 flex-direction: column;
@@ -29,13 +27,15 @@ gap: 0.8em;
 
 .scroll_down{
   display: flex;
-  flex: auto;
+  /* flex: auto; */
 flex-direction: column;
   align-items: center;
   gap: 5rem;
   position: absolute;
   right: 0;
   bottom: 0rem;
+  padding-right: 0.5rem;
+  
  
   
 
