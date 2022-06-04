@@ -1,76 +1,55 @@
-import React from 'react'
-import "./skills.css"
+import React from "react";
+import { Col, Row } from "react-bootstrap";
+import { CgCPlusPlus } from "react-icons/cg";
 import {
-  IoLogoHtml5,
-  IoLogoCss3,
-  IoLogoReact,
-  IoLogoJavascript,
-  IoLogoGithub,
-  IoLogoPython,
-  IoLogoFirebase
- } from "react-icons/io5"
-import {  DiGit,
-  } from "react-icons/di"
-  import {   FaBootstrap,
-  } from "react-icons/fa"
-  import {   SiJquery,
-  } from "react-icons/si"
-const skills = () => {
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiMongodb,
+  DiPython,
+  DiGit,
+} from "react-icons/di";
+import {
+  SiPytorch,
+  SiFirebase,
+  SiNextdotjs,
+} from "react-icons/si";
+
+function Techstack() {
   return (
-  
-      <div className="services" id="Skills">
-          <div className="awesome">
-<span> SKILLS</span>
-<div className='font2'>
-<h1 className='font'>Front End</h1>
-<h1 className="font">others</h1>
-</div></div>
-
-<div className="skill">
- <div className=" flex topic">
- <div class="flex-items">HTML 5</div>
-      <div class="flex-items">CSS 3</div>
-      <div class="flex-items">Bootstrap</div>
-      <div className="icon1">
-      <div class="flex-items">Github</div>
-      <div class="flex-items">Git</div>
-      </div></div>
-      <div className="flex topic">
-< IoLogoHtml5 className="topic1"  size="100px"color= '#e34c26'/>
-
-<IoLogoCss3 className="topic1"  size="100px"color= '#1572B6'/>
-
-<  FaBootstrap className="topic1"  size="100px"color= '#F7DF1E'/>
-<div className="icon">
-<IoLogoGithub  className="topic1" size="100px"/>
-          <DiGit  className="topic1" size="120px"color= '#1572B6'/></div>
-</div>
-</div>
-<div className="top">
-<div className="skill">
- <div className=" flex topic">
- <div class="flex-items">Java Script</div>
-      <div class="flex-items">React</div>
-      <div class="flex-items">Jquery</div>
-      <div className="icon1">
-      <div class="flex-items">Python</div>
-      <div class="flex-items">Firebase</div>
-      </div></div>
-      <div className="flex topic">
-      < IoLogoJavascript className="topic1" size="100px"color= '#F7DF1E'/>
-          <IoLogoReact className="topic1" size="100px"color= '#61DAFB'/>
-          < SiJquery  className="topic1" size="100px"color= '#61DAFB'/>
-          <div className="icon">
-          < IoLogoPython  className="topic1"size="100px"color= '#4584b6'/>
-          <IoLogoFirebase  className="topic1"size="100px"color= '#FFCB2B'/></div>
-</div>
-</div>
-</div>
-
-
-      </div>
-    
-  )
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }} id="skills">
+      <Col xs={4} md={2} className="tech-icons">
+        <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPytorch />
+      </Col>
+    </Row>
+  );
 }
 
-export default skills
+export default Techstack;

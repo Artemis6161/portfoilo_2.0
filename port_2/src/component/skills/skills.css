@@ -28,12 +28,21 @@
 
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
+  justify-content: space-around;
+
+  }
+.topic1{
+  padding: 0.1rem;
+  padding-top: 0.1rem;
+  margin-right: 80px;
+  
+  
 }
-  .topic1{
+
+  /* .topic1{
     padding: 3.5rem;
     padding-top: 1rem;
-  }
+  } */
   .flex-items {
    
     width: 10rem;
@@ -88,7 +97,8 @@
 
   
   .icon{
-margin-left: 6rem;
+margin-left: 1rem;
+
   }
   .icon1{
     margin-left: 6rem;
