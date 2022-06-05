@@ -26,13 +26,13 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-        <Navbar.Brand href="/" className="d-flex" class="text-black">
+     
+      <Container>
+      <Navbar.Brand href="/" className="d-flex" class="text-black">
         
         <h3>SR</h3>
      
   </Navbar.Brand>
-      <Container>
-     
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {

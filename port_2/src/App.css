@@ -10,6 +10,9 @@
     --orangeCard: rgba(252, 166, 31, 0.45);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
+.orange{
+  color: var( --orange) !important;
+}
 
 .App{
     padding: 0.5rem 3.5rem;
@@ -47,6 +50,7 @@
     transition: all 0.3s ease-out 0s !important;
     padding: 2rem 2rem !important;
     font-size: 1.5rem !important;
+    cursor:pointer;
    
   }
   .navbar-toggler {
@@ -104,7 +108,7 @@
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-
+    backdrop-filter: blur(15px) !important;
     /* background-color: #181a27 !important; */
   }
   .navbar-nav .nav-item a::after {
@@ -136,6 +140,7 @@
 }
 
 @media (max-width: 767px) {
+  
   .nav-link {
     padding: 0.7rem 1rem !important;
   }
@@ -148,6 +153,7 @@
 .navbar-nav .nav-item {
   position: relative;
   margin-left: 20px;
+ 
 }
 
 .navbar-nav .nav-item a {
@@ -175,11 +181,48 @@
   width: 100%;
 }
   
-  @media screen and (max-width: 480px) {
+  /* @media screen and (max-width: 480px) {
     .App {
       padding: 0.5rem 1rem;
 
     }
-  }
+  } */
  
-  
+  .tech-icons {
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid orange !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 4px 5px 4px 3px var(--orangeCard) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+  }
+  @media (max-width: 767px) {
+    .tech-icons {
+      margin: 10px !important;
+      
+    }
+    .project-heading {
+text-align: center;
+    }
+  }
+  .tech-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid orange !important;
+  }
+  .tech-icon-images {
+    padding: 20px !important;
+    line-height: 1.6 !important;
+  }
+  .project-heading {
+    /* color: white !important; */
+    font-size: 2.3em !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+  }

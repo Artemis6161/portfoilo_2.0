@@ -1,54 +1,86 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
+  DiHtml5,
 } from "react-icons/di";
 import {
-  SiPytorch,
+  SiGithub,
   SiFirebase,
-  SiNextdotjs,
+  SiBootstrap,
+  SiJquery,
+  SiVisualstudiocode,
+  SiPostman,
+  SiCss3,
 } from "react-icons/si";
+
 
 function Techstack() {
   return (
+    
+    <Container>
+  
+    <h1 className="project-heading">
+          Professional <strong className="orange">Skillset </strong>
+        </h1>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }} id="skills">
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+    <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 size="70px"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiCss3 size="60px"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiJavascript1 size="70px"/>
+      </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact size="70px"/>
+      </Col>
+      
+     
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap size="70px"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiJquery size="70px"/>
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiPython size="70px"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
-      </Col>
+      
     </Row>
+    <h1 className="project-heading">
+          <strong className="orange">Tools</strong> I use
+        </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+     
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudiocode size="50px"/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <  SiGithub  size="60px"/>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit size="80px"/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase size="60px"/>
+      </Col>
+    
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman size="60px"/>
+      </Col>
+      
+    </Row>
+    </Container>
+  
   );
 }
 

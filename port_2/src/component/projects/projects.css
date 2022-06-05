@@ -21,12 +21,11 @@
 .section-title{
     font-size: 30px;
 }
-/* @media screen and (max-width: 480px) {
-    .project-container {
-     
-        
-     
-    }
-  
-   
-  } */
+@media (max-width: 767px) {
+.project-container{
+    padding:20px 21px 20px 20px;
+}
+
+
+
+}
