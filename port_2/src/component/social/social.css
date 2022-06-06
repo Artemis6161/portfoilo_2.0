@@ -79,4 +79,7 @@ flex-direction: column;
     display: none;
 
   }
+  .section-title{
+    padding-top: 10rem;
+}
 }

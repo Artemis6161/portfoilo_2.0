@@ -6,6 +6,7 @@
       /* scroll */
   padding-top: 3rem;
   padding-bottom: 12rem;
+  margin-bottom: 6rem;
 }
 .awesome {
     display: flex;
@@ -57,15 +58,21 @@
 textarea{
     height: 4rem!important;
 }
-
+#done{
+ 
+    
+    margin-right: 3rem;
+ 
+ 
+}
 .c-blur1{
     top: 1rem;
     left: 8rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .awesome{
-    padding-top: 5rem;
+    padding-top: 0.1rem;
   }
     .contact-form{
       /* margin: rem 0; */
@@ -76,6 +83,11 @@ textarea{
     }
     .c-right .user{
         width: 16rem;
+       
     }
+    /* .c-right{
+
+      margin-left: 20rem;
+    } */
 
 }  

@@ -33,11 +33,18 @@
   }
   
   .button:hover {
+
     background: white;
     cursor: pointer;
     border: 1px solid var(--orange);
     color: var(--orange);
+   
   }
+  @media (max-width: 767px) {
+  .button{
+  margin-right: 2rem;
+  }
+}
   .sticky {
     /* background-color: #1b1a2ea9 !important; */
     transition: all 0.3s ease-out 0s !important;
@@ -45,6 +52,7 @@
     backdrop-filter: blur(15px) !important;
    
   }
+ 
   .navbar {
     position: fixed !important;
     transition: all 0.3s ease-out 0s !important;
@@ -209,7 +217,11 @@
     }
     .project-heading {
 text-align: center;
+
+  padding-bottom:5rem;
+
     }
+    
   }
   .tech-icons:hover {
     transform: scale(1.05) !important;
@@ -224,5 +236,27 @@ text-align: center;
     /* color: white !important; */
     font-size: 2.3em !important;
     font-weight: 500 !important;
-    padding-top: 10px !important;
+    padding-top: 20px !important;
   }
+  
+.fork-btn {
+  font-size: 1.1em !important;
+  padding-top: 10px !important;
+}
+
+/* .fork-btn-inner {
+  line-height: 1.4em !important;
+
+  padding: 0.25rem 1.1rem !important;
+ 
+  
+} */
+
+.fork-btn-inner:hover {
+  transform: translateY(-2px) !important;
+
+
+}
+.fork-btn-inner::after {
+  display: none !important;
+}

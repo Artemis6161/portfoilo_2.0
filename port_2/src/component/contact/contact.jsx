@@ -34,10 +34,10 @@ const Contact = () => {
     <input type="text" name="user_email" className='user' placeholder='Email'/>
     <textarea type="message" name="message" className='user' placeholder='message'/>
     <input type="submit" value="send" className='button'/>
-    <span>{done && "Thanks for Contacting me"}</span>
+    <span id="done">{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"
-            style={{ background: "var(--purple)" }}
+            style={{ background: "var(--purple)"}}
           ></div>
         </form>
 

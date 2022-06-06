@@ -94,7 +94,7 @@
       flex-direction: column;
       height: 40rem;
       gap: 7rem;
-     padding-top: 5rem;
+     padding-top: 0.1rem;
     }
     
 .i-right {
@@ -109,6 +109,8 @@
       /* display: none; */
       top: -7rem !important;;
     }
+    
+   
   }
   @media screen and (max-width: 768px) {
     .intro {
@@ -125,6 +127,8 @@
       right: -3rem;
       /* margin-top: -3rem; */
     }
+   
+   
   }
   
  
