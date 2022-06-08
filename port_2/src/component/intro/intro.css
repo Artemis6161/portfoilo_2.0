@@ -2,6 +2,7 @@
     display: flex;
     height: 77vh;
     margin-top: 15rem;
+   
   }
   
   /* left side styling */
@@ -11,7 +12,7 @@
     flex: 1;
     flex-direction: column;
     gap: 2rem;
-    padding-left: 0rem;
+    padding-left: 15rem;
   }
   .i-name {
     display: flex;
@@ -120,7 +121,10 @@
       /* line-height: 5rem; */
       padding-bottom: 50rem;
       margin-top: 9rem;
-     
+    
+    }
+    .i-left{
+      padding-left: 0rem;
     }
     .i-right {
       transform: scale(0.8);

@@ -22,12 +22,12 @@ import {
 function Techstack() {
   return (
     
-    <Container>
+    <Container >
   
-    <h1 className="project-heading">
+    <h1 className="project-heading" id="skills">
           Professional <strong className="orange">Skillset </strong>
         </h1>
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }} id="skills">
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }} >
     <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 size="70px"/>
       </Col>

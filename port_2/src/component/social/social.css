@@ -1,8 +1,8 @@
-/* .social{
-  position: -webkit-sticky; 
-  position: sticky; 
+.social{
+  position: absolute;
+    z-index: 1;
 
-} */
+}
 
 
 .header_socials{
@@ -10,11 +10,12 @@
 flex-direction: column;
   align-items: center;
 gap: 0.8em;
-  position: absolute;
-  left: 0;
+position: fixed;
+
+  left: 90px;
   bottom: 0rem;
-  
-  padding-right: 0px;
+/*   
+  padding-right: 0px; */
  
 
 }
@@ -31,10 +32,10 @@ gap: 0.8em;
 flex-direction: column;
   align-items: center;
   gap: 5rem;
-  position: absolute;
-  right: 0;
+  position: fixed;
+  right: 0.1rem;
   bottom: 0rem;
-  padding-right: 0.5rem;
+  padding-right: 0.1rem; 
   
  
   

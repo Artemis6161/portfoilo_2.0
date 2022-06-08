@@ -22,7 +22,7 @@ I design and Code simple yet beautiful websites.
 <button className="button i-button">Hier me</button></a>
 
 </div>
-        <div className="i-right">
+{/* <div className="i-right">
            <img src={Vector1 } alt="" />
            <img src={Vector2} alt="" />
            <img src={Boy} alt="" />
@@ -40,7 +40,7 @@ I design and Code simple yet beautiful websites.
   left:'-9rem'
 }}>
 </div>
-        </div>
+        </div> */}
     </div>
 
   )

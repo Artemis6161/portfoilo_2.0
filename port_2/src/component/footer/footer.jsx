@@ -22,7 +22,7 @@ import {
   } from "react-icons/fa";
 const footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" >
   <img src={Wave} alt="" style={{ width: "100%",height: "20rem"  }} />
     <div className="f-content">
       <span>sangeetharajan112@gmail.com</span>
@@ -30,10 +30,13 @@ const footer = () => {
       <a href="https://www.linkedin.com/in/sangeetha-rj-283106198/" target="_blank"><FaLinkedin color="#ffff" size="2rem"/></a>
       <a href="https://github.com/Artemis6161" target="_blank"><FaGithub color="#ffff" size="2rem"/></a>
       <a href="https://www.instagram.com/spiceitupwithsan61/" target="_blank">< FaInstagram color="#ffff" size="2rem"/></a>
+   
       </div>
-
+      <div className="cridts">
+      <p >Designed & Built by Sangeetha Rajan
+</p></div>
     </div>
-
+   
     <div className="int">
     <p>Designed & Built by Sangeetha Rajan
 </p>
@@ -59,6 +62,7 @@ const footer = () => {
                 <AiFillStar style={{ fontSize: "1.1em" }} size="30px"color= 'white' />
               </Nav.Link>
             </Nav.Item>
+       
             </div>
   </div>
  

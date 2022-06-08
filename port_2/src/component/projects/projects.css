@@ -20,6 +20,7 @@
 }
 .section-title{
     font-size: 30px;
+    margin-left: 12rem;
 }
 @media (max-width: 767px) {
 
@@ -30,6 +31,7 @@
 
 .section-title{
     padding-top: 5rem;
+    margin-left: 0rem;
 }
 
 }
