@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-import { Nav, Navbar,Container } from 'react-bootstrap'
+import { Nav, Navbar,Container,Button } from 'react-bootstrap'
+import { CgGitFork } from "react-icons/cg";
+import {
+  AiFillStar,
 
+} from "react-icons/ai";
 import { Link } from "react-scroll";
 import "./nav.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -73,10 +77,33 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >Projects
               </Nav.Link>
+            </Nav.Item>   
+            
+            <Nav.Item className="social_nav">
+            <Nav.Link
+            class="text-black"
+                as={Link}
+                to="footer"
+                onClick={() => updateExpanded(false)}
+              >Get In Touch
+              </Nav.Link>
             </Nav.Item>
-           
 
-           
+            <div className="fork">
+            <Nav.Item className="fork-btn1">
+              <Nav.Link
+                href="https://github.com/Artemis6161/portfoilo_2.0/tree/master/port_2"
+                target="_blank"
+                rel="noreferrer"
+                className="fork-btn-inner1"
+                
+              >
+                        <CgGitFork style={{ fontSize: "1.2em" }} size="30px" color= '#242D49'/>{" "}
+                <AiFillStar style={{ fontSize: "1.1em" }} size="30px"color= '#242D49' />
+              </Nav.Link>
+            </Nav.Item>
+       
+            </div>
 
             {/* <Nav.Item className="fork-btn"> */}
             <Link
@@ -87,6 +114,7 @@ function NavBar() {
           </Link>
             {/* </Nav.Item> */}
 
+          
           
           </Nav>
         </Navbar.Collapse>

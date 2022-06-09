@@ -76,14 +76,18 @@ textarea{
   }
     .contact-form{
       /* margin: rem 0; */
-        padding: 0;
+        padding: 0 ;
         flex-direction: column;
         gap: 5rem;
         height: 40rem;
+        padding-bottom: 50rem;
     }
     .c-right .user{
         width: 16rem;
        
+    }
+    #done{
+      margin-right: 1rem;
     }
     /* .c-right{
 
