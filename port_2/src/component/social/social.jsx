@@ -2,6 +2,7 @@ import React from 'react'
 import { IoLogoLinkedin } from "react-icons/io5"
 import {  FiGithub,FiLinkedin } from "react-icons/fi"
 import "./social.css"
+import { Nav, Navbar,Container,Button } from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import {
  
@@ -12,6 +13,10 @@ import {
   } from "react-icons/fa";
 
 const social = () => {
+
+  const socialMedia= [
+   { email: 'sangeetha6161@gmail.com'}
+  ]
   return (
       <div className="social">
   <div className="header_socials">
@@ -21,7 +26,16 @@ const social = () => {
      
   </div>
   <div className="scroll_down">
-<p>sangeetharajan112@gmail.com</p>
+  {/* <Nav.Link
+                href="sangeetha6161@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="fork-btn-inner1"
+                
+              > */}
+<p >sangeetharajan112@gmail.com</p>
+              {/* </Nav.Link> */}
+
   </div>
   </div>
       
