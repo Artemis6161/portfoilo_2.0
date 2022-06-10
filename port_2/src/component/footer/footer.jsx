@@ -11,7 +11,7 @@ import {
   AiFillStar,
 
 } from "react-icons/ai";
-
+import { Container, Row, Col } from "react-bootstrap";
 
 import {
  
@@ -35,13 +35,15 @@ const footer = () => {
       <div className="cridts">
       <p >Designed & Built by Sangeetha Rajan
 </p></div>
+
     </div>
-   
+    
     <div className="int">
     <p>Designed & Built by Sangeetha Rajan
 </p>
 
     </div>
+ 
     <div className="btn">
               
 {/*                

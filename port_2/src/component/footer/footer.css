@@ -64,51 +64,27 @@ margin-bottom: -4rem;
   
   
   @media screen and (max-width: 767px){
-    /* .footer{
-     
-      margin-top: 1px;
-  
-    } */
+   
     .fork-btn{
       display: none;
     }
-    
+  
+
   }
 
   
-  @media screen and (min-width: 767px){
+  @media screen and (min-width:767px){
     
     .f-content {
       display: none;
 
-  }}
-  /* @media screen and (min-width: 1024px) {
-    .f-content {
-        display: none;
-      
-
-    }
-    .btn{
-      display: none;
-    }
-  } */
-/* @media screen and (min-width: 820px) {
-    .f-content {
-        display: none;
-
-    }
-    .btn{
-      display: none;
-    }
+  }
+  /* .int{
+    padding-left: 11rem;
   
-} */
-
-/* @media screen and (max-width: 767px){
-.int{
-  display: none;
+  }
+  .btn{
+    padding-left: 413px;
+    margin-bottom: 1rem;
+  } */
 }
-.btn{
-  display: none;
-}
-
-} */

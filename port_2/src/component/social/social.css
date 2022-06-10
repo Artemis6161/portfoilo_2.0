@@ -25,6 +25,10 @@ position: fixed;
     height: 10rem;
     background-color: #242D49;
 }
+.header_socials>a:hover{
+  transform: scale(1.9) !important;
+
+}
 
 .scroll_down{
   display: flex;
@@ -36,13 +40,17 @@ flex-direction: column;
   right: 0.1rem;
   bottom: 0rem;
   padding-right: 0.1rem; 
-  
+}
+.scroll_down:hover{
+  transform: scale(1.2) !important;
+}
+
  
   
 
  
   
-}
+
 .scroll_down>p{
   
   /* top: 5rem; */
