@@ -8,6 +8,10 @@ import Crown from '../../img/crown.png'
 import Glassesimoji from '../../img/glassesimoji.png'
 import Sa from '../../img/sange.pdf'
 import Typewriter from "typewriter-effect";
+
+import img from "../../img/yellow 3.jpg"
+
+// import img3 from "../../img/3.webp"
 function Intro() {
   return (
     <div className="intro" id="Home">
@@ -36,6 +40,12 @@ function Intro() {
         <a href={Sa} target="_blank">
           <button className="button i-button">Hier me</button></a>
 
+      </div>
+      <div className="img">
+
+      <img src={img } alt="img" />
+
+    
       </div>
       {/* <div className="i-right">
                        <img src={Vector1 } alt="" />

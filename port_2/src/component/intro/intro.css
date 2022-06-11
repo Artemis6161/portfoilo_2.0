@@ -90,6 +90,11 @@
     left: 56%;
     filter: blur(72px);
   }
+  .img{
+padding-right: 15rem ;
+padding-bottom: 6rem;
+
+  }
   @media screen and (max-width: 480px) {
     .intro {
       flex-direction: column;
@@ -131,7 +136,12 @@
       right: -3rem;
       /* margin-top: -3rem; */
     }
-   
+    /* .img{
+padding-right: 200px;
+
+
+
+    } */
    
   }
   

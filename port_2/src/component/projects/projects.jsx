@@ -7,6 +7,7 @@ import proj1 from "../../img/location img.png"
 import proj2 from "../../img/todo img.png"
 import proj3 from "../../img/titactoe img.png"
 import proj4 from "../../img/netflix img.png"
+import proj5 from "../../img/fake store.png"
 const projects = () => {
   const ProjectImage =[
     {
@@ -36,7 +37,15 @@ const projects = () => {
         title: "Netflix-Clone",
         desc: "A responsive netflix-clone web application.",
       link: "https://netflix-clone-93d11.web.app/",
-    }
+    },
+    {
+      id:5,
+      img: proj5,
+      title: "E-commerce",
+      desc: "it's time to shop",
+    link: "https://fake-store-api-75ae5.web.app/",
+  }
+
 
 ];
   return (
