@@ -1,91 +1,67 @@
 .footer {
-    display: flex;
-    align-items: center;
-    margin: -0.5rem -3.5rem;
-    position: relative;
-    margin-top: -20rem;
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+
+ 
 }
-  .f-content {
-    position: absolute;
+
+  .f-icons {
+display: flex;
+    gap: 2rem;
+   
+    display: none;
+  }
+  .fork-btn-inner{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
+    gap: 1rem;
+  
+  
+   
+
+  }
+  .btn{
+    /* position: absolute; */
+    display: flex;
+    padding:200px 200px 100px 900px;
     margin-top: 3rem;
     gap: 1rem;
-    color: white;
-    padding-bottom: 2rem;
-    padding-top: 8rem;
-    cursor: pointer;
-  }
-  
-  .f-icons {
-    display: flex;
-    gap: 2rem;
-    padding-bottom: 4rem;
-    
-  }
- 
- 
-  .btn{
-position: absolute;
-    display: flex;
- padding:200px 200px 100px 900px;
-margin-top: 3rem;
-    gap: 1rem;
-    color: white !important;
-/* border: 10px; */
-margin-right: 5rem;
+    margin-right: 5rem;
 margin-bottom: -4rem;
-    
   }
-
   .int{
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     align-items: center;
-    color: white;
-    width: 100%;
+width: 100%;
     font-size: 20px;
-    padding:200px 400px 100px 780px;
-    margin-bottom: -3rem;
-  }
-  .cridts{
-    margin-bottom: 0px;
-  }
-  /* .f-icons:hover{
-    transform: scale(1.05);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-   
-  } */
-  
-  
-  @media screen and (max-width: 767px){
-   
-    .fork-btn{
-      display: none;
-    }
-  
-
-  }
-
-  
-  @media screen and (min-width:767px){
+    padding:200px 400px 100px 810px;
     
-    .f-content {
-      display: none;
-
   }
-  /* .int{
-    padding-left: 11rem;
-  
-  }
-  .btn{
-    padding-left: 413px;
-    margin-bottom: 1rem;
-  } */
+  .f-icons>a  {
+    transition: all 0.3s linear;
+    /* color: orange; */
+    color:white;
 }
+  .f-icons>a:hover{
+    transform: scale(1.9) !important;
+    color: #242D49; 
+    /* opacity: .5; */
+  }
+ 
+  @media screen and (max-width: 767px){
+    .f-icons{
+display: block;
+display: flex;
+    gap: 2rem;
+    padding-left: 4rem;
+    
+    }
+    .footer{
+      background-color: #F5C32C;
+    }
+
+}
+
+  
+  

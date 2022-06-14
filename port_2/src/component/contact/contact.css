@@ -5,8 +5,7 @@
     margin-top: 4rem;
       /* scroll */
   padding-top: 3rem;
-  padding-bottom: 12rem;
-  margin-bottom: 6rem;
+  
 }
 .awesome {
     display: flex;
@@ -80,7 +79,7 @@ textarea{
         flex-direction: column;
         gap: 5rem;
         height: 40rem;
-        padding-bottom: 60rem;
+        /* padding-bottom: 10rem; */
     }
     .c-right .user{
         width: 16rem;

@@ -38,7 +38,7 @@ function Intro() {
     /></span>
   </div>
         <a href={Sa} target="_blank">
-          <button className="button i-button">Hier me</button></a>
+          <button className="button i-button">Hire me</button></a>
 
       </div>
       <div className="img">
