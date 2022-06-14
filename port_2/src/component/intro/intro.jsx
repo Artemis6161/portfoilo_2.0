@@ -6,7 +6,7 @@ import Vector2 from '../../img/Vector2.png'
 import Boy from '../../img/boy.png'
 import Crown from '../../img/crown.png'
 import Glassesimoji from '../../img/glassesimoji.png'
-import Sa from '../../img/sange.pdf'
+import Sa from '../../img/san.pdf'
 import Typewriter from "typewriter-effect";
 
 import img from "../../img/yellow 3.jpg"
