@@ -133,13 +133,16 @@
 }
 .social_nav{
   display: none
-}}
+}
+}
 .navbar-brand {
   /* color: rgb(250, 250, 250) !important; */
   color: black !important;
 
 
 }
+
+
 
 /* .logo {
   height: 1.4em !important;
