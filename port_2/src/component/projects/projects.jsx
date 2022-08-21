@@ -8,6 +8,7 @@ import proj2 from "../../img/todo img.png"
 import proj3 from "../../img/titactoe img.png"
 import proj4 from "../../img/netflix img.png"
 import proj5 from "../../img/fake store.png"
+import proj6 from "../../img/Screenshot 2022-07-27 000741.png"
 const projects = () => {
   const ProjectImage =[
     {
@@ -44,7 +45,14 @@ const projects = () => {
       title: "E-commerce",
       desc: "it's time to shop",
     link: "https://fake-store-api-75ae5.web.app/",
-  }
+  },
+  {
+    id:6,
+    img: proj6,
+    title: "Form Validation",
+    desc: "Form....",
+  link: "https://form-validation-75718.web.app/",
+}
 
 
 ];

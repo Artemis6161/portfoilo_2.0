@@ -2,7 +2,7 @@ import proj1 from "../../img/location img.png"
 import proj2 from "../../img/todo img.png"
 import proj3 from "../../img/titactoe img.png"
 import proj4 from "../../img/netflix img.png"
-
+import proj6 from "../../img/Screenshot 2022-07-27 000741.png"
 const ProjectImage =[
     {
         id:1,
@@ -32,6 +32,13 @@ const ProjectImage =[
         desc: "A responsive netflix-clone web application.",
       link: "https://netflix-clone-93d11.web.app/",
     }
+    {
+      id:6,
+      imageSrc: proj6,
+      title: "Form Validation",
+      desc: "Form....",
+    link: "https://form-validation-75718.web.app/",
+  }
 
 ];
 export {ProjectImage};
